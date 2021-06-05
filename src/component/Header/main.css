@@ -1,0 +1,8 @@
+.main_area{
+    background-image: url(../../image/3784896.jpg);
+   
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    height: 100vh;
+}
