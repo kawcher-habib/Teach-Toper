@@ -1,0 +1,100 @@
+/* color code: E5F7F8
+FEF7E8
+FEE6ED
+F5FCEC
+F8EFFF
+E9F6EF
+FDF0E6
+E6FBFD */
+
+.business{
+    background: #FEF7E8;
+    transition: 1s;
+}
+.business img{
+    width: 13vh;
+}
+.business:hover{
+  box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+
+.developer{
+    background: #E5F7F8;
+    transition: 1s;
+}
+.developer img{
+    width: 13vh;
+}
+.developer:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.account{
+    background:#FEE6ED;
+    transition: 1s;
+}
+.account img{
+        width: 13vh;
+}
+.account:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.itSoft{
+    background: #FEE6ED;
+    transition: 1s;
+}
+.itSoft img{
+    width: 13vh;
+}
+.itSoft:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.marketing{
+    background: #F5FCEC;
+    transition: 1s;
+}
+.marketing img{
+    width: 13vh;
+}
+.marketing:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.design{
+    background: #F8EFFF;
+    transition: 1s;
+}
+.design img{
+    width: 13vh;
+}
+.design:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.photo{
+    background: #E9F6EF;
+    transition: 1s;
+}
+.photo img{
+    width: 13vh;
+}
+.photo:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.fitness{
+    background: #FDF0E6;
+    transition: 1s;
+}
+.fitness img{
+    width: 13vh;
+}
+.fitness:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
+.lifeStyle{
+    background: #E6FBFD;
+    transition: 1s;
+}
+.lifeStyle img{
+    width: 13vh;
+}
+.lifeStyle:hover{
+    box-shadow: 2px 4px 6px 0px #c7c3c3b8;
+}
