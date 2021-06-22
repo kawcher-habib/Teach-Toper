@@ -9,10 +9,11 @@ import design from '../../image/service/web-design.png';
 import photo from '../../image/service/photo.png';
 import fitness from '../../image/service/lotus.png';
 import lifeStyle from '../../image/service/traveller.png';
+import camera from '../../image/video-camera.png'
 
 const Service = () => {
     return (
-        <div className="mt-3 mb-5 p-4">
+        <div id="service" className="mt-3 mb-5 p-4">
             <div className="container">
                 <span className="text-center d-block text-secondary">Popular Category</span>
                 <h3 className="text-center"> <span className="text-danger">Hot & Popular</span> Category For Learn</h3>
@@ -22,7 +23,7 @@ const Service = () => {
                             <img src={business} className="img-flute" alt="business-img" />
                             <div className="ms-4">
                                 <h5 className="text-warning">Business</h5>
-                                <h6 className="text-secondary">45 Class</h6>
+                                <h6 className="text-secondary"> <img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} /> 45 Class</h6>
                             </div>
                         </div>
 
@@ -32,7 +33,7 @@ const Service = () => {
                             <img src={developer} className="img-flute" alt="developer-img" />
                             <div className="ms-4">
                                 <h5 className="text-info">Development</h5>
-                                <h6 className="text-secondary">120 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />120 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -41,7 +42,7 @@ const Service = () => {
                             <img src={account} className="img-flute" alt="account-img" />
                             <div className="ms-4">
                                 <h5 className="text-success">Accounting</h5>
-                                <h6 className="text-secondary">70 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />70 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -50,7 +51,7 @@ const Service = () => {
                             <img src={itSoft} className="img-flute" alt="itSoft-img" />
                             <div className="ms-4">
                                 <h5 className="text-success">It & Software</h5>
-                                <h6 className="text-secondary">150 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />150 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -59,7 +60,7 @@ const Service = () => {
                             <img src={marketing} className="img-flute" alt="marketing-img" />
                             <div className="ms-4">
                                 <h5 className="text-primary">Marketing</h5>
-                                <h6 className="text-secondary">86 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />86 Class</h6>
                             </div>
                         </div>
 
@@ -69,7 +70,7 @@ const Service = () => {
                             <img src={design} className="img-flute" alt="design-img" />
                             <div className="ms-4">
                                 <h5 className="text-warning">Art & Designing</h5>
-                                <h6 className="text-secondary">286 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />286 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -80,7 +81,7 @@ const Service = () => {
                             <img src={photo} className="img-flute" alt="photo-img" />
                             <div className="ms-4">
                                 <h5 className="text-info">Photography</h5>
-                                <h6 className="text-secondary">50 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />50 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -89,7 +90,7 @@ const Service = () => {
                     <img src={fitness} className="img-flute" alt="fitness-img" />
                             <div className="ms-4">
                                 <h5 className="text-warning">Health & Fitness</h5>
-                                <h6 className="text-secondary">170 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />170 Class</h6>
                             </div>
                         </div>
                     </div>
@@ -98,7 +99,7 @@ const Service = () => {
                     <img src={lifeStyle} className="img-flute" alt="lifeStyle-img" />
                             <div className="ms-4">
                                 <h5 className="text-danger">LifeStyle</h5>
-                                <h6 className="text-secondary">110 Class</h6>
+                                <h6 className="text-secondary"><img src={camera} alt="cameraIMg" className="img-fluid" style={{width:"23px", marginRight:'5px'}} />110 Class</h6>
                             </div>
                         </div>
                     </div>
