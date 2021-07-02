@@ -5,12 +5,12 @@ import img2 from '../../image/—Pngtree—online network online education class
 
 const Main = () => {
     return (
-        <div className="mt-0" style={{background:'#E6FBFD'}}>
+        <div className="mt-0 main__area" style={{background:'#032656'}}>
             <div className=" container mb-0 ">
                 <div className="row">
-                    <div className=" col-lg-4 col-md-4 col-sm-12 d-flex">
-                        <div className="align-self-center text-secondary mt-3">
-                            <h3 className="text-warning"><span className="text-dark">Welcome To</span> <span className="text-info fz-25">Teach</span>Toper</h3>
+                    <div className=" col-lg-4 col-md-4 col-sm-12 d-flex align-items-center justify-content-center">
+                        <div className=" text-secondary mt-3">
+                            <h1 className="text-warning fw-bold"><span className="text-white">Welcome To</span> <span className="text-info ">Teach</span>Toper</h1>
                             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam, tempora.</p>
                         </div>
                        

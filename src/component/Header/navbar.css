@@ -1,0 +1,21 @@
+.nave__container{
+    /* background:#E6FBFD ; */
+    background: #032656;
+    /* transition: 2s; */
+    border-bottom: 1px solid gray;
+}
+.nave__Fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #0000009d;
+    transition: 2s;
+    z-index: 2;
+   
+    
+}
+
+.nav-item .nav-link{
+    color: white !important;
+}

@@ -8,6 +8,7 @@ import Service from './component/service/Service';
 import About from './component/e-know/About';
 import Testimonial from './component/testimonial/Testimonial';
 import Subscrib from './component/subscrip/Subscrib'
+import Maping from './component/maping/Maping'
 import { Provider } from 'react-redux';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Service />
       <About />
       <Testimonial />
+      <Maping />
       <Subscrib />
       <Footer />
     </>
